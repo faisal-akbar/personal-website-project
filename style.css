@@ -138,6 +138,25 @@ section {
 
 }
 
+.message-card a {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.message-card a {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.message-card a:hover {
+    color: #FFC71E;
+}
+
 /* Button Style */
 
 .btn {
@@ -163,7 +182,6 @@ section {
     margin-top: 25px;
     padding-bottom: 15px;
     text-align: center;
-
 
 }
 
