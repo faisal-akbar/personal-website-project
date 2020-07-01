@@ -106,13 +106,13 @@ section {
     height: 250px;
     margin-top: 80px;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px gray;
-    cursor: pointer;
+    box-shadow: 2px 2px 10px #808080;
     transition: 1s;
+    cursor: pointer;
 }
 
-.col img:hover {
-    transform: scale(1.05);
+.wk-list img:hover {
+    transform: scale(1.3);
 }
 
 
