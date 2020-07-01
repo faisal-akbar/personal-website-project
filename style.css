@@ -1,3 +1,4 @@
+/* Reset  */
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
     color: #333;
-
 }
 
 h1 {
@@ -19,14 +18,17 @@ h2 {
     font-size: 1.5rem;
 }
 
+h4 {
+    font-size: 1.2rem;
+}
+
 h1,
-h2,
-h3 {
+h2 {
     margin-bottom: 15px;
     font-weight: 800;
 }
 
-/* Utility */
+/* Utility classes */
 .primary-highlight {
     color: #FF4690;
     font-weight: 800;
@@ -53,6 +55,22 @@ section {
     /* border: 1px solid red; */
 }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #FF4690;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: #fd0065;
+}
 
 /* Showcase */
 .showcase-container {
@@ -155,25 +173,6 @@ section {
 
 .message-card a:hover {
     color: #FFC71E;
-}
-
-/* Button Style */
-
-.btn {
-    cursor: pointer;
-    display: inline-block;
-    margin: 25px 0;
-    padding: 10px 30px;
-    color: #fff;
-    background-color: #FF4690;
-    font-weight: 700;
-    border-radius: 5px;
-    text-decoration: none;
-
-}
-
-.btn:hover {
-    background-color: #fd0065;
 }
 
 
