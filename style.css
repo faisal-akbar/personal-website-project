@@ -148,13 +148,13 @@ section {
 }
 
 
-
 .blog-list h2 {
     text-align: center;
 }
 
 .blog-container .blog-list .col {
     padding: 15px 15px;
+    background-color: #fff;
 }
 
 
